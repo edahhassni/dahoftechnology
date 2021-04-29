@@ -1,0 +1,83 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+header{
+     height: 120px;
+     width: 100%;
+     background-color: #eee;
+     text-align: center;
+     line-height: 120px;
+}
+div{
+     background-color: #eee;
+     width: 100px;
+     height: 100px;
+     transition-duration: 1s;
+     display: inline-block;
+     text-align: center;
+     border-radius: 5px 20px;
+}
+div:hover{
+     margin: auto;
+     width: 100px;
+
+}
+
+
+.div1:hover{
+     background-color: #eee;
+}
+
+.div2:hover{
+     background-color: white;
+}
+
+.div3:hover{
+    background-color: #eee;
+}
+h4{
+     line-height: 100px;
+     color: black;
+}
+h4:hover{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+
+    
+}
+
+#this-main{
+     width: 100%;
+     height: 400px;
+     background-color: #eee;
+     color: black;
+     border-width: 2px;
+     border-color: #eee ;
+     border-style: solid;
+     float: right;
+}
+
+.parghraphId{
+     width: 70%;
+     float: right;
+     margin-right: 100px;
+     direction: rtl;
+}
+
+.parghraphId h2{
+     padding: 6px 0;
+}
+.parghraph{
+     width: 500px;
+     background-color: orange;
+     margin: auto;
+
+}
+.this-asid{
+     background-image: linear-gradient(orange,red);
+     width: 30%;
+     float: left;
+}
